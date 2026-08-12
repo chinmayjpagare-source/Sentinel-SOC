@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+.env.*
+*.env
+secrets/
+credentials/
+
+# ML generated models
+*.pkl
+*.joblib
+
+# Generated SOC data
+ml/*.csv
+ml/sent_incidents.txt
+
+# Zeek generated logs/captures
+zeek/logs/
+zeek/correlation-test/
+zeek/final-correlation/
+*.log
+*.pcap
+*.pcapng
+
+# Wazuh Docker certificates / keys
+wazuh/wazuh-docker/single-node/config/wazuh_indexer_ssl_certs/
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+wazuh/
+test/
