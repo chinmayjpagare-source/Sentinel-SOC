@@ -302,6 +302,6 @@ Potential extensions include:
 
 ## 👤 Author
 
-**Chinmay Pagare**
+**Chinmay J. Pagare**
 
 Cybersecurity / Blue Team Portfolio Project
